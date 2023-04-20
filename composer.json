@@ -1,0 +1,17 @@
+{
+    "name": "maxim/portfoliov2",
+    "autoload": {
+        "psr-4": {
+            "Maxim\\Portfoliov2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cepillo1418",
+            "email": "maxime.heintze@laposte.net"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}
