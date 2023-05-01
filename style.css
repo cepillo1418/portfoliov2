@@ -132,9 +132,7 @@ text-decoration: underline;
     background: -webkit-linear-gradient(#3D4444, #747474);
     background: -o-linear-gradient(#3D4444, #747474);
   }
-  #openModal{
-    background:red !important; 
-  }
+ 
   .close {
     background: #49495c;
     color: #ffffff;
@@ -408,8 +406,8 @@ transform: scale(4);
 .imagePPE2 img{
   margin-left: 20px;
   display: inline-block!important;
-  width: 80px!important;
-  height: 100px!important;
+  width: 50px!important;
+  height: 80px!important;
   transition: transform .1s;
 }
 
