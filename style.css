@@ -132,6 +132,9 @@ text-decoration: underline;
     background: -webkit-linear-gradient(#3D4444, #747474);
     background: -o-linear-gradient(#3D4444, #747474);
   }
+  #openModal{
+    background:red !important; 
+  }
   .close {
     background: #49495c;
     color: #ffffff;
@@ -266,16 +269,19 @@ h6 {
   /*css projet */ 
 
 
-  .projet{
+   .projet{
     margin-left: 200px;
     
 
   }
 
-  .box-aligne{
-    align-items: start
+  .box-aligne {
+    padding-right: 500px;
+    
   }
 
+
+  
 /*modal projet */ 
 
 
@@ -299,7 +305,7 @@ h6 {
   }
   .modalDialog1 > div {
     width: 700px;
-    height: 500px;
+    height: 550px;
     position: relative;
     margin-top: 200px;
     margin-left: 600px;
@@ -349,14 +355,69 @@ h6 {
   
   .deco1{
     margin-left: 10px;
+    
   }
 
   .projet h4{
     margin-bottom: 10px;
     margin-left: 10px;
   }
+.imageFS img{
+   margin-left: 20px;
+  display: inline-block!important;
+  width: 150px!important;
+  height: 100px!important;
+  transition: transform .1s;
+}
+
+.imageFS img:hover{
+        -ms-transform: scale(4); /* IE 9 */
+-webkit-transform: scale(4); /* Safari 3-8 */
+transform: scale(4);
+}
+
+.imageERTP img{
+  margin-left: 20px;
+  display: inline-block!important;
+  width: 150px!important;
+  height: 100px!important;
+  transition: transform .1s;
+}
+
+.imageERTP img:hover{
+        -ms-transform: scale(4); /* IE 9 */
+-webkit-transform: scale(4); /* Safari 3-8 */
+transform: scale(4);
+}
+/*projet3*/
 
 
+.imagePPE img{
+  margin-left: 20px;
+  display: inline-block!important;
+  width: 150px!important;
+  height: 100px!important;
+  transition: transform .1s;
+}
+
+.imagePPE img:hover{
+        -ms-transform: scale(4); /* IE 9 */
+-webkit-transform: scale(4); /* Safari 3-8 */
+transform: scale(4);
+}
+.imagePPE2 img{
+  margin-left: 20px;
+  display: inline-block!important;
+  width: 80px!important;
+  height: 100px!important;
+  transition: transform .1s;
+}
+
+.imagePPE2 img:hover{
+        -ms-transform: scale(4); /* IE 9 */
+-webkit-transform: scale(4); /* Safari 3-8 */
+transform: scale(4);
+}
   /*Synthese */ 
 
   .synthese h1{
@@ -573,4 +634,9 @@ fieldset{
 
 fieldset h4{
   font-size: 15px;
+}
+
+
+.sautImg{
+  margin-top: 5px!important;
 }

@@ -165,12 +165,14 @@
 <!-- section projet -->
 
       <div id="projet"></div>
-    <section class="projet" >
+    <section class="projet " >
 
     <div class="box-aligne">
+
+   
        <h1>Mes projets</h1>
        <p class="sautComp"></p>
-
+       <div class="projet1">
          <h4>FastShop :</h4>
         <a class="deco1" href="#openModal3"><img src="img/fs.png"></a></p><br/>
 
@@ -187,18 +189,24 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>SQL</li>
+                <h3>Frameworks</h3>
+                 <li>Bootstrap-FontAwesome</li>
         </ul><br />
-        <h3>Images</h3>
+        <div class="imageFS">
+        <h3>Images</h3><br />
+            <img src="img/fastshop1.png" alt="fastshop">
+           
+            <img src="img/fastshop2.png" alt="fastshop">
 
-      
+</div>
 
       </div>
     </div>
+    </div>
 
-    <p class="saut"></p>
 
     <!--projet 2 -->
-   
+   <div class="projet2">
     <h4>ERTP :</h4>
         <a class="deco1" href="#openModal4"><img src="img/ertp.png"></a></p><br/>
 
@@ -217,12 +225,79 @@
             <h3>Frameworks</h3>
                  <li>Bootstrap</li>
         </ul><br />
-        <h3>Images</h3>
-
+        <div class="imageERTP">
+        <h3>Images</h3><br/>
+           <img src="img/ertp1.png" alt="ertp">
+           <img src="img/ertp2.png" alt="ertp">
       
-
+           </div>
       </div>
     </div>
+    </div>
+
+     <!--projet 3 -->
+   <div >
+    <h4>SpeedGest' :</h4>
+        <a class="deco1" href="#openModal5"><img style="width: 150px!important; height: 150px!important;" src="img/logoPPE.png"></a></p><br/>
+
+       <div id="openModal5" class="modalDialog1">
+      <div>
+        <a href="#close" title="Close" class="close1">X</a>
+        <h2>SpeedGest'</h2><br />
+        <h3>Description : </h3><br/>
+        <p>C'est un site de gestion de flotte,</p>
+        <p>on peut y trouver des fonctionnalitées tel que : La gestion d'agence, le gestion de véhicule, la possibilité de crée des rôles d'utilisateurs...</p><br/>
+        <h3>Langages utilisés</h3>
+        <ul>
+                <li>PHP</li>
+                <li>Js</li>
+                <li>HTML-CSS</li>
+                <br/>
+            <h3>Frameworks</h3>
+                 <li>Bootstrap-Laravel-FontAwesome</li>
+                 
+        </ul><br />
+        <div class="imagePPE">
+        <h3>Images</h3><div class="sautImg"></div>
+           <img src="img/ppe1.png" alt="ppe">
+           <img src="img/ppe1_2.png" alt="ppe">
+      
+           </div>
+      </div>
+    </div>
+    </div>
+
+      <!--projet 4 -->
+   <div >
+    <h4>SpeedGest'App :</h4>
+        <a class="deco1" href="#openModal6"><img style="width: 150px!important; height: 150px!important;" src="img/lg2.png"></a></p><br/>
+
+       <div id="openModal6" class="modalDialog1">
+      <div>
+        <a href="#close" title="Close" class="close1">X</a>
+        <h2>SpeedGest'App</h2><br />
+        <h3>Description : </h3><br/>
+        <p>C'est une application mobile qui fait suite au site web,</p>
+        <p>on peut y trouver des fonctionnalitées tel que : voir les récapitulatifs des locations et des véhicules disponibles, modifier son profile et son mot de passe etc...</p><br/>
+        <h3>Langages utilisés</h3>
+        <ul>
+                <li>PHP</li>
+                <li>HTML-CSS</li>
+                <li>Ionic</li><br/>
+            <h3>Frameworks</h3>
+                 <li>Bootstrap</li>
+                 
+        </ul><br />
+        <div class="imagePPE2">
+        <h3>Images</h3><br/>
+           <img src="img/mobile.png" alt="ppe">
+           <img src="img/mobile1.png" alt="ppe">
+      
+           </div>
+      </div>
+    </div>
+    </div>
+
 
 
 
